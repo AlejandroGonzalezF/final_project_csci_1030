@@ -14,4 +14,4 @@ Alternative: *For the dataset vgsales.csv, the genre of a game impacts whether o
 
 4. What models do you plan to apply to your data first? 
 
-*Logistic Regression, Decision Trees, (possibly) Heatmaps.
+*Logistic Regression, Decision Trees, (possibly) Heatmaps.*
