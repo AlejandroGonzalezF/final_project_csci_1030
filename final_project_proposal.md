@@ -10,6 +10,7 @@ What is your plan for working on this? How much time do you plan to dedicate to 
 3. What is your starting hypothesis about the data? Create a null hypothesis and an alternative hypothesis as follows:
 
 Null: *For the dataset vgsales.csv, the genre of a game does not impact whether or not it has high sales*
+
 Alternative: *For the dataset vgsales.csv, the genre of a game impacts whether or not it has high sales*
 
 4. What models do you plan to apply to your data first? 
