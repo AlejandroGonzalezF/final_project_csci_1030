@@ -9,10 +9,14 @@ What is your plan for working on this? How much time do you plan to dedicate to 
 
 3. What is your starting hypothesis about the data? Create a null hypothesis and an alternative hypothesis as follows:
 
-Null: *For the dataset vgsales.csv, the genre of a game does not impact whether or not it has high sales*
+Null: *For the dataset vgsales.csv, the genre, publisher, platform, and year of release of a game does not impact whether or not it has high sales* 
 
-Alternative: *For the dataset vgsales.csv, the genre of a game impacts whether or not it has high sales*
+Alternative: *For the dataset vgsales.csv, the genre, publisher, platform, and year of release of a game impacts whether or not it has high sales*
 
 4. What models do you plan to apply to your data first? 
 
-*Logistic Regression, Decision Trees, (possibly) Heatmaps.*
+*Logistic Regression: Multiple of my columns are binary, and the coefficient provided will give insight for whether sales are impacted or not, which is helpful for my hypotesis.*
+
+*Decision Trees: I consider it to be a simple way of getting the nonlinear relationships and determine links between two columns that may have not been well defined in the Logistic Regression coefficients.*
+
+*Random Forest: I plan to use this as a follow up to the Decision Trees, to get an overall view of which factors are related to sales. And to see if it impacts or not the overall sales.*
