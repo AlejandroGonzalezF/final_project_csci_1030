@@ -15,8 +15,12 @@ Alternative: *For the dataset vgsales.csv, the genre, publisher, platform, and y
 
 4. What models do you plan to apply to your data first? 
 
-*Logistic Regression: Multiple of my columns are binary, and the coefficient provided will give insight for whether sales are impacted or not, which is helpful for my hypotesis.*
+*Logistic Regression: Multiple of my columns are binary, and the accuracy score provided will give insight for whether sales are impacted or not, which is helpful for my hypotesis.*
 
 *Decision Trees: I consider it to be a simple way of getting the nonlinear relationships and determine links between two columns that may have not been well defined in the Logistic Regression coefficients.*
 
 *Random Forest: I plan to use this as a follow up to the Decision Trees, to get an overall view of which factors are related to sales. And to see if it impacts or not the overall sales.*
+
+*XGBoosting: I'll use it as the next step from Random Forest, as it has higher accuracy and is crucial for categorical data as well.*
+
+*SVMs: The defining model of all, as it will define the margins between classes and it will provide the clearest answer for my hypotesis.*
